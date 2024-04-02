@@ -5,6 +5,7 @@ struct User{
     string nama,password;
 };
 
+
 bool operator==(const User& user, const string& nama){
     return user.nama == nama;
 }
